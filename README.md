@@ -6,9 +6,6 @@ Go 语言性能测试
 - 测试
   - 1 [engine fetch 与 db Scan 操作的性能比较](01.md)
 
-链接
--------------
-<https://github.com/lincolnge/go-lang-func>
 
 环境
 -------------

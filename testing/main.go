@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "github.com/lincolnge/go-lang-func/math"
+import "github.com/lincolnge/go-lang-performance-test/math"
 import "runtime/pprof" // 引用pprof package
 import "os"
 
