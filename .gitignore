@@ -1,3 +1,4 @@
-*.prof
+# *.prof
 *.test
 bin
+macbin

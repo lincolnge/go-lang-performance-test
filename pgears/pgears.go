@@ -35,37 +35,21 @@ func main() {
 	}
 	var data Data = Data{}
 	var data0 Data = Data{}
-	for i := 0; i < 25; i++ {
-		data.Meta = meta
+	data.Meta = meta
+	for i := 0; i < 20; i++ {
 		data.Content = content
 		err = engine.InsertMerge(&data)
 		checkErr(err)
-	}
 
-	for i := 0; i < 25; i++ {
 		data0.Id = data.Id
 		engine.Fetch(&data0)
 	}
 	fmt.Println(data)
 	fmt.Println(data0)
-	f1()
 }
 
 func checkErr(err error) {
 	if err != nil {
 		panic(err)
-	}
-}
-
-func f1() {
-	a := "O"
-	print(a)
-	f2()
-}
-func f2() {
-	print(a)
-	var k = 0
-	for i := 0; i < 100000000; i++ {
-		k = k + i
 	}
 }
