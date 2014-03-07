@@ -1,4 +1,10 @@
-*.prof
-*.test
+# compiled source
 bin
 macbin
+
+# folder
+testing/
+
+# test and prof file
+*.prof
+*.test
