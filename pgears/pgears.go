@@ -36,7 +36,7 @@ func main() {
 	var data Data = Data{}
 	var data0 Data = Data{}
 	data.Meta = meta
-	for i := 0; i < 20; i++ {
+	for i := 0; i < 1000; i++ {
 		data.Content = content
 		err = engine.InsertMerge(&data)
 		checkErr(err)

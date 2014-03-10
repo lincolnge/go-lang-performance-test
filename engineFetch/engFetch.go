@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/Dwarfartisan/pgears"
 	"os"
 	"runtime/pprof" // 引用pprof package
@@ -35,8 +34,6 @@ func main() {
 		err = engine.InsertMerge(&data)
 		checkErr(err)
 	}
-
-	fmt.Println(data)
 }
 
 func checkErr(err error) {
