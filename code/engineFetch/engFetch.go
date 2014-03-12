@@ -22,8 +22,8 @@ func main() {
 	engine.MapStructTo(&reg, "userinfo")
 
 	username := "astaxie"
-	var departname = "研发部门"
-	var created = "2012-12-09"
+	departname := "研发部门"
+	created := "2012-12-09"
 
 	var data Data = Data{}
 	data.Username = username
